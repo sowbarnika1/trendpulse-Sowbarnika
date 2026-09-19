@@ -2,7 +2,7 @@ import datetime
 
 import pandas as pd
 
-df = pd.read_json('D:\\VS workspace\\data\\trends_20260919.json')
+df = pd.read_json('\\data\\trends_20260919.json')
 
 
 df.drop_duplicates(subset=["post_id"])
